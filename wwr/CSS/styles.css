@@ -38,8 +38,8 @@
     background-color: #1f3337; 
  }
  .home-title{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 5, 5);
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
  }
@@ -73,19 +73,19 @@
  }
  .icon{
     width: 80px;
-    padding: 15px 30px;
+    padding-top: 10px;
  }
  .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
 .card-img{
-   border: 10px solid #ffffff;
+   border: 10px solid #363a45;
 }
- .msg{
+.msg{
     background-color: #304f4a; 
     line-height: 1.5em;
     padding: 35px;
- }
+}
  .msg h2{
     color: rgb(11, 2, 2) ;
     font-family: Arial, Helvetica, sans-serif;
