@@ -1,0 +1,94 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 15px outside black;
+ }
+nav {
+    display: flex;
+    justify-content: space-around;
+ }
+  nav a{
+     text-align: center;
+     color: black;
+     text-decoration: none;
+     padding: 35px;
+  }
+  nav a:hover{
+    background-color: #ffffff; 
+    color: black;
+ }
+  body{
+    background-color: #b2c6c2; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ header{
+    display: grid;
+    grid-template-columns: 150px auto;
+
+ }
+ .logo{
+    width: 80px;
+ }
+ #logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+ }
+ h3{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, fitVerdana, sans-serif;
+ }
+ .button-box{
+   display: -ms-inline-grid;
+}
+.button-box .cancel{
+   grid-column: 1/2;
+} 
+.button-box .book{
+   grid-column: 3/4;
+}
+.book, .cancel{
+   background-color: #6c8c87; 
+   color: black; 
+   text-decoration: none;
+   font-size: 18px;
+   padding: 15px 30px;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+
+.book:hover, .cancel:hover{
+   background-color: #ffffff; 
+}
+ footer{
+    background-color: #304f4a; 
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ footer h3{
+    color: rgb(17, 7, 7);
+    text-decoration: underline;
+ }
+ footer a{
+    color: rgb(22, 14, 14);
+    text-decoration: none;
+ }
+ footer a:hover{
+    background-color: rgb(71, 71, 58);
+    color: white;
+    text-decoration: underline;
+ }
+ footer .social img{
+    padding-top: 15px;
+ }
