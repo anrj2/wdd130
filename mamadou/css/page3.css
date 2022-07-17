@@ -76,9 +76,12 @@ main{
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
+    margin-left: 5%;
   }
   h3{
     margin-left: 5%;
+    font-weight: bold;
+    font-size: x-large;
   }
   img.fpage{
     box-shadow: 10px 10px 5px #d3b185;
